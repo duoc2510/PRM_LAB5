@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="32dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button android:id="@+id/btnOptions" android:text="Options Menu"
+        android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/btnContext" android:text="Context Menu"
+        android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/btnPopup" android:text="Popup Menu"
+        android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/btnContextual" android:text="Contextual ActionBar"
+        android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

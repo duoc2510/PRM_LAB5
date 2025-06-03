@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/contextual_option1"
+        android:icon="@drawable/ic_delete"
+        android:title="Option 1"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/contextual_option2"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="Option 2"
+        app:showAsAction="ifRoom" />
+</menu>
